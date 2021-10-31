@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+    padding: 20px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: rgb(36, 37, 46);
+}
+.card {
+    margin: auto;
+    width: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    border-radius: 10px;
+    border: 3px solid rgb(80, 207, 29);
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(231, 242, 255, 0.199) 0%, rgba(13, 156, 32, 0.308) 100%);
+}
+h1 {
+    text-align: center;
+    font-size: 2rem;
+    color: rgb(207, 207, 207);
+}
+input {
+    width: 150px;
+    padding: 10px 10px;
+    border: 1px solid #ccc;
+    outline: none;
+    font-size: 16px;
+    border-radius: 25px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+p {
+    font-weight: bold;
+    margin-bottom: 2rem;
+    font-size:3rem;
+    text-align: center;
+    color: rgb(74, 243, 7);
+}
+h4 {
+    font-size:1.5rem;
+    text-align: center;
+    margin-top:20px;
+    color: rgb(230, 230, 230);
+}
+button {
+    width: 80%;
+    padding: 10px 10px;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    border: none;
+    background-color:rgb(73, 139, 46);
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+@media (max-width:500px) {
+    .card {
+        width: 350px;
+    }
+}
